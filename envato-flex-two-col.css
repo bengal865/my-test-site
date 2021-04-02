@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Visual Styling */
+html {
+  font-family: sans-serif;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  background-color: rgb(58, 187, 204);
+  border: 5px solid rgb(42, 42, 42);
+  padding: 20px;
+}
+
+.main-column {
+  flex: 2; /* Takes up 2X as much space as the other column */
+}
